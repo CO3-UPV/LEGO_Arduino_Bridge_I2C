@@ -3,7 +3,7 @@
 Siguiendo ambos esquematicos, empleando un resistencia entre 43k y 82k será suficiente. 
 ![](img\Arduino-and-NXT-Schematic.png)
 
-Y con la linia de 4.7V, se puede alimentar perfectamente a un Arduino Nano, para hacer de esclabo del LEGO.
+Y con la linia de 4.7V, se puede alimentar perfectamente a un Arduino Nano, para hacer de slave del LEGO.
 
 ![](img/I2C-and-Pullup-Resistors.png)
 
