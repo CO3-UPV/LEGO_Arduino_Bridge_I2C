@@ -6,6 +6,8 @@ Siguiendo ambos esquematicos, empleando un resistencia entre 43k y 82k será suf
 Y con la linia de 4.7V, se puede alimentar perfectamente a un Arduino Nano, para hacer de slave del LEGO.
 
 ![](img/I2C-and-Pullup-Resistors.png)
+![](img/Arduino-and-NXT-Schematic.png)
+
 
 En la carpeta LEGO_Arduino_Slave_I2C se puede encontrar un ejemplo base para conectar el arduino al LEGO, y leer con MATLAB los 6 registros de 4 bytes de tipo float del arduino. Empieza el contenido de los 6 registros del 0 al 5, y se van incrementando de 0.01, cada vez que hay una consulta del registro.
 
